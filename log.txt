@@ -1,0 +1,8 @@
+ff6a456 (HEAD -> main) pushed contact
+6cf0c3e pushed content, header, footer
+4ade952 (origin/main) created images
+437fe0b scripts crceatd
+3635d38 created base
+63b337b creatd styling
+01a2026 changed file
+2650d96 created files
