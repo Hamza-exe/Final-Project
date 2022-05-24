@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Hamza Elafifi">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="assets/style/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+        <script src="assets/Scripts/script.js" defer></script>
+    </head>
+
+    <body>
+        <div>
+            <div id="wrapper">
+                <header>
+                    <div class="container navigation">
+
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo-black.png"></a>
+                        </div>
+
+                        <nav class="nav-page">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a class="highlight" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="mobile-nav">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <section>
+            <h1>Contact Us!</h1>
+            <div class="row-container row">
+                <div class="col col-md-6 col-lg-4" id="map1">
+                    <i id="mapdot" class="fa-solid fa-location-dot"></i>
+                    <div id="map"></div>
+                </div>
+
+                <div class="col col-md-6 col-lg-4">
+                    <div class="col-content">
+                        <div class="content">
+                            <div class="col form">
+                                <form id="registration" class="registration" novalidate>
+                                    <h2>Contact Me</h2>
+                                    <p>Fields with * are required</p>
+                                    <input type="text" id="first-name" placeholder="First Name *"> 
+                                    <p id="msg-name"></p>
+                                    <input type="text" id="last-name" placeholder="Last Name *">
+                                    <p id="msg-last"></p> 
+                                    <input type="text" id="age" placeholder="Age *">
+                                    <p id="msg-age"></p>
+                                    <input type="email" id="email" placeholder="Email *">  
+                                    <p id="msg-email"></p>
+                
+                                    <div class="button">
+                                        <input type="reset" value="Clear">
+                                        <p></p>
+                                        <input type="button" id="submit" value="Submit">
+                                    </div>
+        
+                                    <p id="submit-message"></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="copyright">
+                        <p>&copy 2022 HammItt</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
